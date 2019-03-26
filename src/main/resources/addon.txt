@@ -1,0 +1,7 @@
+id=cn.perfree.links
+title=友情链接插件
+description=一款简单免费的友情链接插件
+author=Perfree
+authorWebsite=
+version=1.0.0
+versionCode=1
