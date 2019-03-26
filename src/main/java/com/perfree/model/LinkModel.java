@@ -1,4 +1,4 @@
-package com.perfree;
+package com.perfree.model;
 
 import io.jboot.db.annotation.Table;
 import io.jboot.db.model.JbootModel;
@@ -9,4 +9,5 @@ import io.jboot.db.model.JbootModel;
  */
 @Table(tableName = "perfree-link")
 public class LinkModel extends JbootModel<LinkModel> {
+
 }

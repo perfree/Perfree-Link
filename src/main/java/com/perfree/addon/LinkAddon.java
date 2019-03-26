@@ -1,14 +1,10 @@
-package com.perfree;
+package com.perfree.addon;
 
 import com.jfinal.plugin.activerecord.Db;
-import io.jboot.db.model.JbootModel;
 import io.jpress.core.addon.Addon;
 import io.jpress.core.addon.AddonInfo;
 import io.jpress.core.menu.MenuGroup;
 import io.jpress.core.menu.MenuManager;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @Author Perfree
