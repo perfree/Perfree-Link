@@ -8,3 +8,10 @@
 	#(link.imgUrl)
 #end
 ```
+name:网站名称
+
+link:网站地址
+
+desc:网站描述
+
+imgUrl:网站logo
