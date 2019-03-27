@@ -15,3 +15,8 @@ link:网站地址
 desc:网站描述
 
 imgUrl:网站logo
+
+## 后台设置截图
+![管理](./src/main/webapp/screen/1.png)
+
+![新增](./src/main/webapp/screen/2.png)
