@@ -5,8 +5,8 @@
 
     <section class="content-header">
         <h1>
-            新增友链
-            <small>Add Link</small>
+            编辑友链
+            <small>Edit Link</small>
         </h1>
     </section>
 
@@ -21,13 +21,14 @@
                     <form class="form-horizontal autoAjaxSubmit" autocomplete="off"
                           method="post"
                           data-ok-href="#(CPATH)/admin/perfreeLink"
-                          action="#(CPATH)/admin/perfreeLink/doAdd">
+                          action="#(CPATH)/admin/perfreeLink/doEdit">
                         <div class="box-body ">
+                            <input type="hidden" name="linkModel.id" value="#(link.id)">
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">网站名称</label>
                                 <div class="col-sm-6">
                                     <input type="text" class="form-control" placeholder="请填写网站名称"
-                                           name="linkModel.name" maxlength="100">
+                                           name="linkModel.name" maxlength="100" value="#(link.name)">
                                     <p class="help-block"> 对方网站的名称(100字以内) </p>
                                 </div>
                             </div>
@@ -35,7 +36,7 @@
                                 <label class="col-sm-2 control-label">网站地址</label>
                                 <div class="col-sm-6">
                                     <input type="text" class="form-control" placeholder="请填写网站地址"
-                                           name="linkModel.link" maxlength="100">
+                                           name="linkModel.link" maxlength="100" value="#(link.link)">
                                     <p class="help-block"> 对方网站的地址 </p>
                                 </div>
                             </div>
@@ -43,7 +44,7 @@
                                 <label class="col-sm-2 control-label">网站描述</label>
                                 <div class="col-sm-6">
                                     <input type="text" class="form-control" placeholder="请填写网站描述"
-                                           name="linkModel.desc" maxlength="200">
+                                           name="linkModel.desc" maxlength="200" value="#(link.desc)">
                                     <p class="help-block"> 对方网站的描述(200字以内) </p>
                                 </div>
                             </div>
@@ -51,7 +52,7 @@
                                 <label class="col-sm-2 control-label">网站图片</label>
                                 <div class="col-sm-6">
                                     <input type="text" class="form-control" placeholder="请填写网站图片logo地址"
-                                           name="linkModel.imgUrl" maxlength="100">
+                                           name="linkModel.imgUrl" maxlength="100" value="#(link.imgUrl)">
                                     <p class="help-block"> 对方网站的图片logo地址 </p>
                                 </div>
                             </div>
@@ -66,6 +67,7 @@
                         </div>
                         <!-- /.box-footer -->
                     </form>
+
                 </div>
             </div>
         </div>
